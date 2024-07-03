@@ -1,6 +1,8 @@
 package packages;
 
 public class Publicdemo {
-	main
+	public static void main(String[] args) {
+		
+	}
 
 }

@@ -1,10 +1,15 @@
 package com.tnsif.encapsulation;
 
 public class Encapsulationdemo {
-	public static void main(String[] args) {
+	
 		int serialnumber;
-		string name;
-		int
+		String name;
+		int age;  //data members
+		
+		void show() {   //member function
+			
+			System.out.println("serialnumber"+serialnumber+" "+"name "+name + "age"+ age);
+		}
 	}
 
-}
+

@@ -3,7 +3,7 @@ package com.tnsif.scannerclass;
 public class Person {
 	private String name;
 	private int income;
-	private int age;
+	private int tax;
 	public String getName() {
 		return name;
 	}
@@ -16,18 +16,19 @@ public class Person {
 	public void setIncome(int income) {
 		this.income = income;
 	}
-	public int getAge() {
-		return age;
+	public int getTax() {
+		return tax;
 	}
-	public void setAge(int age) {
-		this.age = age;
+	public void setTax(int tax) {
+		this.tax = tax;
 	}
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", income=" + income + ", age=" + age + ", getName()=" + getName()
-				+ ", getIncome()=" + getIncome() + ", getAge()=" + getAge() + ", getClass()=" + getClass()
+		return "Person [name=" + name + ", income=" + income + ", tax=" + tax + ", getName()=" + getName()
+				+ ", getIncome()=" + getIncome() + ", getTax()=" + getTax() + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
+	
 	
 
 }
